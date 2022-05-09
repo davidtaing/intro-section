@@ -22,6 +22,7 @@ a {
 }
 
 .attribution {
+  margin-top: 32px;
   font-size: 11px;
   text-align: center;
 }
@@ -78,4 +79,44 @@ p {
   text-align: center;
   font-size: 16px;
   line-height: 26px;
+}
+
+button {
+  font-family: Epilogue, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.22px;
+  border-radius: 15px;
+  padding: 11px 22px;
+  border: none;
+}
+
+.button--black {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+.block-center {
+  display: block;
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-48 {
+  margin-top: 48px;
 }

@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             height="282"
             alt="Hero Image"
             priority
-          ></Image>
+          />
         </div>
         <div className="text-container">
           <h1>Make remote work</h1>
@@ -47,20 +47,56 @@ const Home: NextPage = () => {
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
-          <button>Learn more</button>
-          <div className="attribution">
-            Challenge by{" "}
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Frontend Mentor
-            </a>
-            . Coded by <a href="#">Your Name Here</a>.
+          <button className="button--black block-center">Learn more</button>
+          <div className="clients__container flex space-between mt-48">
+            <Image
+              className="client-logo"
+              src="/images/client-databiz.svg"
+              height="14.36"
+              width="81.25"
+              alt="Databiz logo"
+              layout="fixed"
+            />
+            <Image
+              className="client-logo"
+              src="/images/client-audiophile.svg"
+              height="26"
+              width="52.87"
+              alt="Audiophile logo"
+              layout="fixed"
+            />
+            <Image
+              className="client-logo"
+              src="/images/client-meet.svg"
+              height="14.36"
+              width="64.14"
+              alt="Meet logo"
+              layout="fixed"
+            />
+            <Image
+              className="client-logo"
+              src="/images/client-maker.svg"
+              height="17.23"
+              width="58.9"
+              alt="Maker logo"
+              layout="fixed"
+            />
           </div>
         </div>
       </main>
+      <footer>
+        <div className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">David Taing</a>.
+        </div>
+      </footer>
     </div>
   );
 };
